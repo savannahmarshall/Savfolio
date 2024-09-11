@@ -1,8 +1,53 @@
-# React + Vite
+# Savfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+I created Savfolio to display and showcase my favorite projects to provide a way for employers to both see my work and contact me. 
+  
+## Table of Contents
+  
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+Install dependencies:
+
+**Npm install:** 
+
+## Usage
+
+Navigating Savfolio's Features:
+
+1. **:** 
+   
+2. **:** 
+   
+3. **:** 
+
+**Please click [here]() to view this application.**
+
+
+![screenshot of portfolio]()
+
+
+
+## Contributing
+If you are interesting in contributing to this project, please contact me directly. 
+
+## License
+This project is licensed under the [MIT License](https://opensource.org/license/MIT).
+
+## Tests
+There are no tests for this application.
+
+## Questions
+If you have any questions about this project, feel free to reach out:
+
+**GitHub:** https://github.com/savannahmarshall  
+
+**Email:** savvymarshall@gmail.com
