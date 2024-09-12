@@ -15,7 +15,6 @@ function Footer() {
               <img src="/assets/linkedin-square-icon.png" alt="LinkedIn" />
             </div>
           </a>
-          <a href="#contact" className="hire-me-button">Hire Me</a>
         </div>
       </div>
     </footer>

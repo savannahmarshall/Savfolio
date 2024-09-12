@@ -42,16 +42,21 @@ body {
 
 /* Title Box Styles */
 .title-box {
-  position: relative;
-  display: inline-block; 
-  padding: 0.5rem 1rem;
-  background-color: rgba(18, 17, 17, 0.7);
-  border-radius: 5px;
+  padding: 0.75rem 1.5rem; 
+  background-color: rgba(18, 17, 17, 0.7); 
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
-.logo h1 {
-  color: #f99c31;
+/* Header Text Styling */
+.title-box h1 {
+  color: #f99c31; 
+  font-size: 1.7rem; 
+  font-weight: bold; 
+  margin: 0; 
+  text-align: center;
 }
+
 /* Nav Styles */
 .navigation {
   display: flex;
@@ -240,27 +245,24 @@ button:hover {
   padding: 20px;
   background-color: #000000;
 }
+/* Portfolio Title Container Styles */
 .portfolio-title-container {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  background-image: url('/assets/title-backdrop.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 6px;
-  border: 2px solid #4ec99c;
+  background-color: #000;
+  border: none; /* Remove the border */
   margin-bottom: 40px;
+  border-bottom: 2px solid #4ec99c;
 }
 
 .portfolio-title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #20d373;
   margin-bottom: 0;
   text-align: center;
   font-weight: bold;
 }
-
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -543,20 +545,155 @@ button:hover {
 .social-links img:hover {
   opacity: 0.8;
 }
+/* Media Queries */
 
-/* Hire Button Styles */
-.footer .hire-me-button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  background-color: #4ec99c;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1rem;
-  border-radius: 50%;
-  border: none;
-  transition: background-color 0.3s ease;
+/* Extra Small Devices (Phones) */
+@media (max-width: 575.98px) {
+  .header {
+    padding: 0.5rem;
+    height: 80px;
+  }
+
+  .title-box {
+    padding: 0.5rem;
+  }
+
+  .navigation {
+    padding: 0.5rem;
+  }
+
+  .contact-page form {
+    padding: 1rem;
+  }
+
+  .about-me-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-me-photo {
+    margin: 1rem auto;
+  }
+
+  .skills-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-.hire-me-button:hover {
-  background-color: #3a9a7e;
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .header {
+    padding: 0.75rem;
+    height: 90px;
+  }
+
+  .title-box {
+    padding: 0.75rem;
+  }
+
+  .navigation {
+    padding: 0.75rem;
+  }
+
+  .contact-page form {
+    padding: 1.25rem;
+  }
+
+  .about-me-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-me-photo {
+    margin: 1.5rem auto;
+  }
+
+  .skills-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
 }
+
+/* Medium Devices (Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .header {
+    padding: 1rem;
+    height: 100px;
+  }
+
+  .title-box {
+    padding: 1rem;
+  }
+
+  .navigation {
+    padding: 1rem;
+  }
+
+  .contact-page form {
+    padding: 1.5rem;
+  }
+
+  .about-me-container {
+    flex-direction: row;
+  }
+
+  .about-me-photo {
+    margin-left: 2rem;
+  }
+
+  .skills-list {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+/* Large Devices (Large Desktops) */
+@media (min-width: 992px) {
+  .header {
+    padding: 1rem 2rem;
+    height: 100px;
+  }
+
+  .title-box {
+    padding: 1rem 1.5rem;
+  }
+
+  .navigation {
+    padding: 1rem 2rem;
+  }
+
+  .contact-page form {
+    padding: 1.5rem 2rem;
+  }
+
+  .about-me-container {
+    flex-direction: row;
+  }
+
+  .about-me-photo {
+    margin-left: 4rem;
+  }
+
+  .skills-list {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
