@@ -2,7 +2,7 @@
 
 ## Description
 
-Savfolio is a personal portfolio designed to highlight my favorite projects from the bootcamp using and was created using React and Vite. This provides a platform for potential employers to review my work and reach out to me directly. It showcases a variety of projects that demonstrate the skills and technologies I’ve acquired. The "About Me" page includes a brief biography and icons representing the technologies I've learned. The portfolio page features eight projects, allowing users to interact by selecting images or buttons to access GitHub repositories or deployed applications. Additionally, there’s a contact page where users can submit their information, and a resume page where they can view and download my resume, offering insights into my professional and educational background.
+Savfolio is a personal portfolio designed to highlight my favorite projects from the bootcamp and was created using React and Vite. This provides a platform for potential employers to review my work and reach out to me directly. It showcases a variety of projects that demonstrate the skills and technologies I’ve acquired. The "About Me" page includes a brief biography and icons representing the technologies I've learned. The portfolio page features eight projects, allowing users to interact by selecting images or buttons to access GitHub repositories or deployed applications. Additionally, there’s a contact page where users can submit their information, and a resume page where they can view and download my resume, offering insights into my professional and educational background.
   
 ## Table of Contents
   
