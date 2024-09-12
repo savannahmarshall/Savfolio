@@ -54,7 +54,7 @@ const projects = [
 function Portfolio() {
     return (
       <section className="portfolio">
-        <h2 className="portfolio-title">My Portfolio</h2>
+        <h2 className="portfolio-title">My Work</h2>
         <div className="portfolio-grid">
           {projects.map((project, index) => (
             <div className="portfolio-item" key={index}>

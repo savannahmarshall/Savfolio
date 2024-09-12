@@ -16,12 +16,12 @@ const AboutMe = () => {
             <li><a href="https://www.javascript.com/" title="JavaScript"><img src="/assets/icons/javascript-programming-language-icon.png" alt="JavaScript" /></a></li>
             <li><a href="https://react.dev/" title="React"><img src="/assets/icons/react-js-icon.png" alt="React" /></a></li>
             <li><a href="https://nodejs.org/en" title="Node.js"><img src="/assets/icons/node-js-icon.png" alt="Node.js" /></a></li>
-            <li><a href="https://expressjs.com/" title="Express.js"><img src="/assets/icons/fast-icon.png" alt="Express.js" /></a></li>
+            <li><a href="https://expressjs.com/" title="Express.js"><img src="/assets/icons/express.png" alt="Express.js" /></a></li>
             <li><a href="https://www.postgresql.org/" title="PostgreSQL"><img src="/assets/icons/postgresql-icon.png" alt="PostgreSQL" /></a></li>
             <li><a href="" title="CSS/SCSS"><img src="/assets/icons/css-icon.png" alt="CSS/SCSS" /></a></li>
             <li><a href="https://html.com/" title="HTML"><img src="/assets/icons/file-html-color-red-icon.png" alt="HTML" /></a></li>
             <li><a href="https://www.mongodb.com/" title="MongoDB"><img src="/assets/icons/mongodb-icon.png" alt="MongoDB" /></a></li>
-            <li><a href="https://insomnia.rest/" title="Insomnia"><img src="/assets/icons/purple-mail-icon.png" alt="Insomnia" /></a></li>
+            <li><a href="https://insomnia.rest/" title="Insomnia"><img src="/assets/icons/insomnia-icon.png" alt="Insomnia" /></a></li>
             <li><a href="https://graphql.org/" title="GraphQL"><img src="/assets/icons/graphql-icon.png" alt="GraphQL" /></a></li>
           </ul>
             </div>
