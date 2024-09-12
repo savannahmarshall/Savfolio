@@ -2,7 +2,7 @@
 
 ## Description
 
-I created Savfolio to display and showcase my favorite projects to provide a way for employers to both see my work and contact me. 
+Savfolio is a personal portfolio designed to highlight my favorite projects from the bootcamp using and was created using React and Vite. This provides a platform for potential employers to review my work and reach out to me directly. It showcases a variety of projects that demonstrate the skills and technologies I’ve acquired. The "About Me" page includes a brief biography and icons representing the technologies I've learned. The portfolio page features eight projects, allowing users to interact by selecting images or buttons to access GitHub repositories or deployed applications. Additionally, there’s a contact page where users can submit their information, and a resume page where they can view and download my resume, offering insights into my professional and educational background.
   
 ## Table of Contents
   
@@ -15,29 +15,37 @@ I created Savfolio to display and showcase my favorite projects to provide a way
 
 ## Installation
 
-Install dependencies:
-
-**Npm install:** 
+To get started with Savfolio, clone the repository and install the necessary dependencies by running: npm install.
 
 ## Usage
 
-Navigating Savfolio's Features:
+**Features:**
 
-1. **:** 
-   
-2. **:** 
-   
-3. **:** 
+**About Me Page:** View a brief biography and click on the technology icons to be redirected to official pages for more information.
 
-**Please click [here]() to view this application.**
+**Portfolio Page:** Click on project images to access the GitHub repository or use the buttons below the photos to view the deployed application or a recorded demo.
+
+**Contact Page:** Fill out your name, email, and message in the form and hit "Submit" to get in touch with me.
+
+**Resume Page:** Review a list of my qualifications and download my resume as a PDF by clicking the download button.
+
+**Please click [here]() to view the deployed application.**
 
 
-![screenshot of portfolio]()
+![screenshot of about me page](https://github.com/savannahmarshall/Savfolio/blob/main/src/assets/screenshots/about-me.png)
+
+![screenshot of portfolio page](https://github.com/savannahmarshall/Savfolio/blob/main/src/assets/screenshots/portfolio.png)
+
+![screenshot of contact page](https://github.com/savannahmarshall/Savfolio/blob/main/src/assets/screenshots/contact-me.png)
 
 
 
 ## Contributing
 If you are interesting in contributing to this project, please contact me directly. 
+
+Icons by: 
+* [icons8](https://icons8.com/)
+* [uxwing](https://uxwing.com/)
 
 ## License
 This project is licensed under the [MIT License](https://opensource.org/license/MIT).
