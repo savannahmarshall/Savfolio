@@ -3,6 +3,7 @@ import Layout from './components/Layout';
 import ContactPage from './components/Contact';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio'; 
+import Resume from './components/Resume';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<AboutMe />} />
           <Route path="/contact" element={<ContactPage />} /> 
           <Route path="/portfolio" element={<Portfolio />} /> 
+          <Route path="/resume" element={<Resume />} /> 
         </Route>
       </Routes>
     </Router>
