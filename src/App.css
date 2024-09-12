@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Layout Container */
@@ -27,37 +28,58 @@ body {
 /* Header Styles */
 .header {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #262525;
-  padding: 1rem 0;
+  justify-content: space-between;
+  align-items: center; 
+  background-image: url('/assets/fern-photo.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  padding: 1rem 2rem; 
   width: 100%;
+  height: 100px; 
+}
+
+/* Title Box Styles */
+.title-box {
+  position: relative;
+  display: inline-block; 
+  padding: 0.5rem 1rem;
+  background-color: rgba(18, 17, 17, 0.7);
+  border-radius: 5px;
 }
 
 .logo h1 {
-  color: #fff;
+  color: #f99c31;
+}
+/* Nav Styles */
+.navigation {
+  display: flex;
+  justify-content: flex-end; 
+  width: auto; 
+  padding: 1rem 2rem; 
+  background-color: rgba(18, 17, 17, 0.7); 
+  border-radius: 5px; 
 }
 
-/* Nav Styles */
+/* Navigation Links */
 .nav-links {
   list-style: none;
+  display: flex;
+  gap: 20px;
   margin: 0;
   padding: 0;
-  display: flex;
+  align-items: center;
 }
 
-.nav-links li {
-  margin-left: 20px;
-}
-
+/* Navigation Link Styles */
 .nav-link {
-  color: #66d387;
+  color: #20d373;
   text-decoration: none;
   font-size: 1rem;
 }
 
 .nav-link:hover {
-  color:#333;
+  color: #333;
 }
 
 
@@ -111,51 +133,62 @@ button:hover {
   background-color: #555;
 }
 
-/* About Me Style */
+/* About Me and Skills Style */
 .about-me-container {
   display: flex;
-  background-color:#000000;
   flex-direction: row; 
   justify-content: space-between; 
   align-items: flex-start; 
   padding: 2rem;
+  background-color: #000000; 
 }
 
+/* About Me Content */
+.about-me-content {
+  flex: 1; 
+  text-align: left;
+  color: #4ec99c;
+}
+
+/* About Me Title */
+.about-me-content h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem; 
+  font-weight: bold; 
+  color: #4ec99c; 
+  border-bottom: 2px solid #4ec99c; 
+  padding-bottom: 0.5rem; 
+}
+
+/* Skills Section Header */
+.about-me-content h2 {
+  margin-top: 1.5rem; 
+  margin-bottom: 1rem; 
+  font-size: 2rem;
+  font-weight: bold; 
+  color: #4ec99c; 
+  border-bottom: 2px solid #4ec99c; 
+  padding-bottom: 0.5rem; 
+}
+
+/* Profile Photo */
 .about-me-photo {
-  flex: 1;
+  flex-shrink: 0; 
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem; 
+  margin-right: 2rem;
+  margin-top: 1rem;
 }
 
 .about-me-photo img {
-  border-radius: 50%;
-  width: 200px; 
-  height: 200px; 
-  object-fit: cover;
-}
-
-.about-me-content {
-  flex: 2; 
-  text-align: left; 
-  color: #4ec99c; 
-}
-
-.about-me-content h1 {
-  margin-bottom: 1rem;
-}
-
-.about-me-content h2 {
-  margin-top: 1.5rem;
-}
-
-.about-me-content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about-me-content li {
-  margin: 0.5rem 0;
+  width: 300px; 
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 0; 
+  border: 5px solid #4ec99c; 
+  padding: 0.5rem;
 }
 
 /* Skills Styles */
@@ -165,15 +198,16 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  margin-top: 10px;
 }
 
 .skills-list li {
   display: flex;
   align-items: center;
-  justify-content: center; 
-  width: 60px; 
-  height: 60px; 
-  overflow: hidden; 
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
 }
 
 .skills-list a {

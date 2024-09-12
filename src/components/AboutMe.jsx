@@ -11,7 +11,7 @@ const AboutMe = () => {
                     I have experience working with various technologies including React, Node.js, and PostgreSQL. My goal is to create impactful and 
                     engaging digital experiences. My interests include outdoor exploration, gardening, crafts, and music.
                 </p>
-                <h2>Skills:</h2>
+                <h2>Skills</h2>
           <ul className="skills-list">
             <li><a href="https://www.javascript.com/" title="JavaScript"><img src="/assets/icons/javascript-programming-language-icon.png" alt="JavaScript" /></a></li>
             <li><a href="https://react.dev/" title="React"><img src="/assets/icons/react-js-icon.png" alt="React" /></a></li>
@@ -26,7 +26,7 @@ const AboutMe = () => {
           </ul>
             </div>
             <div className="about-me-photo">
-                <img src="/assets/profile-photo.png" alt="Profile" />
+                <img src="/assets/profile-pic.jpg" alt="Profile photo" />
             </div>
         </div>
     );
