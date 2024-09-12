@@ -31,7 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center; 
-  background-image: url('/assets/fern-photo.jpg'); 
+  background-image: url('/assets/layout/fern-photo.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
@@ -251,7 +251,7 @@ button:hover {
   display: inline-block;
   padding: 10px 20px;
   background-color: #000;
-  border: none; /* Remove the border */
+  border: none;
   margin-bottom: 40px;
   border-bottom: 2px solid #4ec99c;
 }
@@ -475,7 +475,7 @@ button:hover {
 /* Footer Styles */
 .footer {
   background-color: #0c0f0a;
-  background-image: url('/assets/footer.jpg'); 
+  background-image: url('/assets/layout/footer.jpg'); 
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat; 

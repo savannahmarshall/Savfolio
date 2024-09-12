@@ -7,12 +7,12 @@ function Footer() {
         <div className="social-links">
           <a href="https://github.com/savannahmarshall" target="_blank" rel="noopener noreferrer">
             <div className="icon-wrapper">
-              <img src="/assets/github-icon.png" alt="GitHub" />
+              <img src="/assets/icons/github-icon.png" alt="GitHub" />
             </div>
           </a>
           <a href="https://www.linkedin.com/in/savannah-marshall-62b470200/" target="_blank" rel="noopener noreferrer">
             <div className="icon-wrapper">
-              <img src="/assets/linkedin-square-icon.png" alt="LinkedIn" />
+              <img src="/assets/icons/linkedin-square-icon.png" alt="LinkedIn" />
             </div>
           </a>
         </div>
