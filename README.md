@@ -27,7 +27,7 @@ To get started with Savfolio, clone the repository and install the necessary dep
 
 **Resume Page:** Review a list of my qualifications and download my resume as a PDF by clicking the download button.
 
-**Please click [here]() to view the deployed application.**
+**Please click [here](https://main--savfolio.netlify.app/) to view the deployed application on Netlify.**
 
 
 ![screenshot of about me page](https://github.com/savannahmarshall/Savfolio/blob/main/src/assets/screenshots/about-me.png)
