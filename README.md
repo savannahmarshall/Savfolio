@@ -19,9 +19,7 @@ To get started with Savfolio, clone the repository and install the necessary dep
 
 ## Usage
 
-**Features:**
-
-**About Me Page:** View a brief biography and click on the technology icons to be redirected to official pages for more information.
+**About Me Page:** View my short biography and click on the technology icons to be redirected to official pages for more information.
 
 **Portfolio Page:** Click on project images to access the GitHub repository or use the buttons below the photos to view the deployed application or a recorded demo.
 
