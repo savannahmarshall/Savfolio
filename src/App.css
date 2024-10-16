@@ -55,6 +55,7 @@ body {
   font-weight: bold; 
   margin: 0; 
   text-align: center;
+  font-family: "Stardos Stencil", system-ui;
 }
 
 /* Nav Styles */
@@ -82,6 +83,7 @@ body {
   color: #20d373;
   text-decoration: none;
   font-size: 1rem;
+  font-family: "Stardos Stencil", system-ui;
 }
 
 .nav-link:hover {
@@ -288,8 +290,13 @@ body {
 }
 
 .portfolio-links a:hover {
-  background-color: #4ec99c; 
+  background-color: #0b1c19; 
   color: #000000; 
+}
+.button-icon {
+  width: 24px; 
+  height: 24px; 
+  vertical-align: middle; 
 }
 
 /* Contact Styles */
@@ -390,6 +397,7 @@ body {
   margin-top: 2rem;
   font-size: 1rem;
   transition: background-color 0.3s ease;
+  font-weight: bold;
 }
 
 .resume-download-link:hover {

@@ -21,7 +21,7 @@ To get started with Savfolio, clone the repository and install the necessary dep
 
 **About Me Page:** View my short biography and click on the technology icons to be redirected to official pages for more information.
 
-**Portfolio Page:** Click on project images to access the GitHub repository or use the buttons below the photos to view the deployed application or a recorded demo.
+**Portfolio Page:** Click on project images to access the GitHub repository or click on the sprout icon below each project to view the deployed application or video demonstration.
 
 **Contact Page:** Fill out your name, email, and message in the form and hit "Submit" to get in touch with me.
 
