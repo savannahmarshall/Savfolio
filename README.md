@@ -32,7 +32,7 @@ To get started with Savfolio, clone the repository and install the necessary dep
 
 ![screenshot of about me page](https://github.com/savannahmarshall/Savfolio/blob/main/src/assets/screenshots/about-me.png)
 
-![screenshot of portfolio page](https://github.com/savannahmarshall/Savfolio/blob/main/src/assets/screenshots/portfolio.png)
+![screenshot of portfolio page](https://github.com/savannahmarshall/Savfolio/blob/main/public/assets/screenshots/portfolio-updated.png)
 
 ![screenshot of contact page](https://github.com/savannahmarshall/Savfolio/blob/main/src/assets/screenshots/contact-me.png)
 
